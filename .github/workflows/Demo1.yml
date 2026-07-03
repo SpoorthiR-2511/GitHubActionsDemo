@@ -1,12 +1,13 @@
+name: Multiple Commands
 on:
   push:
 jobs:
   demo:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Run Commands
         run: |
-          echo "Starting Job.."
+          echo "Starting Job..."
           pwd
           ls
           echo "Completed"
