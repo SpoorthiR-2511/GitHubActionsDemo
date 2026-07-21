@@ -1,0 +1,16 @@
+- name: Send Email
+  uses: dawidd6/action-send-mail@v3
+  with:
+    server_address: smtp.office365.com
+    server_port: 587
+    secure: false
+    username: ${{secrets.EMAIL_USERNAME}}
+    password: ${{secrets.EMAIL_PASSWORD}}
+    subject: New Pull Request Created
+    to: Spoorthi.R@Ltts.com
+    from: GitHub PR Notification
+    body: |
+      Repository: ${{ github.repository }}
+      PR Title: ${{ github.event.pull_request.Add PR }}
+      PR URL: ${{ github.event.pull_request.
+    
