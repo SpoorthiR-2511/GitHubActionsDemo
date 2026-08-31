@@ -15,14 +15,18 @@ class PullRequest:
 
     def get_details(self) -> str:
         """Return PR details."""
-        return f"Pull Request: {self.title} " f"created by {self.author}"
+        return (
+            f"Pull Request: {self.title} "
+            f"created by {self.author}"
+        )
 
 
 def main():
     """Application entry point."""
 
     pull_request = PullRequest(
-        title="Added Power Automate Notification", author="Spoorthi"
+        title="Added Power Automate Notification",
+        author="Spoorthi"
     )
 
     if pull_request.is_valid():
