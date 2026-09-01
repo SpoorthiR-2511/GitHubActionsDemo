@@ -1,4 +1,5 @@
 from copy import copy
+from datetime import datetime
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter
@@ -18,7 +19,6 @@ def generate_report(input_file, output_file):
 
     for row in source_ws.iter_rows():
         for cell in row:
-
             if cell.value == "CATEGORY":
                 category_col = cell.column
                 header_row = cell.row
@@ -36,13 +36,14 @@ def generate_report(input_file, output_file):
             source_width = source_ws.column_dimensions[
                 col_letter
             ].width
+
             new_ws.column_dimensions[
                 col_letter
             ].width = source_width
+
     target_row = 1
 
     for col in range(1, source_ws.max_column + 1):
-
         source_cell = source_ws.cell(header_row, col)
 
         target_cell = new_ws.cell(
@@ -61,8 +62,10 @@ def generate_report(input_file, output_file):
     target_row += 1
 
     for row_num in range(header_row + 1, source_ws.max_row + 1):
-
-        category_value = source_ws.cell(row=row_num, column=category_col).value
+        category_value = source_ws.cell(
+            row=row_num,
+            column=category_col,
+        ).value
 
         if category_value is None:
             continue
@@ -71,8 +74,10 @@ def generate_report(input_file, output_file):
             continue
 
         for col in range(1, source_ws.max_column + 1):
-
-            cell_value = source_ws.cell(row=row_num, column=col).value
+            cell_value = source_ws.cell(
+                row=row_num,
+                column=col,
+            ).value
 
             if (
                 col == ticket_col
@@ -91,8 +96,12 @@ def generate_report(input_file, output_file):
                 value=cell_value,
             )
 
-            target_cell.alignment = copy(source_cell.alignment)
-            target_cell.number_format = source_cell.number_format
+            target_cell.alignment = copy(
+                source_cell.alignment
+            )
+            target_cell.number_format = (
+                source_cell.number_format
+            )
 
         target_row += 1
 
@@ -107,12 +116,20 @@ if __name__ == "__main__":
         r"\failuresClassifications_MGU22_03-08-2026-10-08-2026.xlsx"
     )
 
-    output_file = (
-        r"C:\Users\40054008\OneDrive - LTTS"
-        r"\excel_filter\IRREGULAR_TEST_FAILURE_Report.xlsx"
+    timestamp = datetime.now().strftime(
+        "%Y%m%d_%H%M%S"
     )
 
-    generate_report(input_file, output_file)
+    output_file = (
+        r"C:\Users\40054008\OneDrive - LTTS"
+        rf"\git_work\GitHubActionsDemo\excel_filter"
+        rf"\IRREGULAR_TEST_FAILURE_Report_{timestamp}.xlsx"
+    )
+
+    generate_report(
+        input_file,
+        output_file,
+    )
 
     print("File created successfully!")
     print("Saved at:", output_file)
