@@ -1,5 +1,6 @@
-from openpyxl import load_workbook, Workbook
 from copy import copy
+
+from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter
 
 
@@ -73,9 +74,14 @@ def generate_report(input_file, output_file):
 
             cell_value = source_ws.cell(row=row_num, column=col).value
 
-            if col == ticket_col:
-                if cell_value is None or str(cell_value).strip() == "":
-                    cell_value = "NULL"
+            if (
+                col == ticket_col
+                and (
+                    cell_value is None
+                    or str(cell_value).strip() == ""
+                )
+            ):
+                cell_value = "NULL"
 
             source_cell = source_ws.cell(row_num, col)
 

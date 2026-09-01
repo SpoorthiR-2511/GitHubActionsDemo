@@ -1,5 +1,5 @@
-from openpyxl import Workbook, load_workbook
 from excel import generate_report
+from openpyxl import Workbook, load_workbook
 
 
 def create_test_excel(file_name):
