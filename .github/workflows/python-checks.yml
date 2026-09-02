@@ -1,0 +1,38 @@
+name: Python Quality Checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: |
+          pip install -r github_notification_project/requirements.txt
+          pip install -r excel_filter/requirements.txt
+
+      - name: Run Flake8
+        run: |
+          python -m flake8 github_notification_project
+          python -m flake8 excel_filter
+
+      - name: Run Ruff
+        run: |
+          python -m ruff check github_notification_project
+          python -m ruff check excel_filter
+
+      - name: Run PyTest
+        run: |
+          python -m pytest github_notification_project/tests
+          python -m pytest excel_filter/tests

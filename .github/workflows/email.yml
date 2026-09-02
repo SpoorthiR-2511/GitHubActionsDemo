@@ -11,4 +11,6 @@
     from: GitHub PR Notification
     body: |
       Repository: ${{ github.repository }}
+      PR Title: ${{ github.event.pull_request.Add PR }}
+      PR URL: ${{ github.event.pull_request.
     

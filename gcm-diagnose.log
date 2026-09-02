@@ -1,0 +1,217 @@
+﻿Diagnose log at 2026-07-24T07:21:42Z
+
+AppPath: C:\Users\40054008\AppData\Local\Programs\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Users\40054008\AppData\Local\Programs\Git\mingw64\bin\
+Version: 2.8.0+d5e8a3442d48cc5efe7014e093e44242c0bd395f
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SESSIONNAME=Console
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+VSCODE_A11Y_MODE=0
+GIT_TRACE=1
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+EFC_7072_2775293581=1
+TMP=C:\Users\40054008\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\40054008\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js
+Path=C:/Users/40054008/AppData/Local/Programs/Git/mingw64/libexec/git-core;C:\Users\40054008\AppData\Local\Programs\Git\mingw64\bin;C:\Users\40054008\AppData\Local\Programs\Git\usr\bin;C:\Users\40054008\bin;c:\Users\40054008\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\40054008\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Users\40054008\.local\bin;C:\Users\40054008\AppData\Local\Microsoft\WindowsApps;C:\Users\40054008\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\40054008\AppData\Local\Programs\Git\cmd;C:\Users\40054008\AppData\Local\Python\bin;c:\Users\40054008\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts
+USERPROFILE=C:\Users\40054008
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-5fd13180ca-sock
+PROCESSOR_REVISION=8c01
+EFC_7072_2283032206=1
+TEMP=C:\Users\40054008\AppData\Local\Temp
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+LOGONSERVER=\\MYSTS01
+SSF_LIBRARY_PATH=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+PYDEVD_DISABLE_FILE_VALIDATION=1
+USERNAME=40054008
+SystemRoot=C:\WINDOWS
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\40054008\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-2cd91093778491d9.txt
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_1000_VXJOXKOHGWLQIBNH
+GIT_EXEC_PATH=C:/Users/40054008/AppData/Local/Programs/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+USERDNSDOMAIN=LNTIES.COM
+EFC_7072_4126798990=0
+EFC_7072_1592913036=1
+OneDrive=C:\Users\40054008\OneDrive - LTTS
+USERDOMAIN_ROAMINGPROFILE=LNTIES
+VSCODE_NONCE=08577026-d197-4a0d-b5d2-d16521cd0556
+CommonProgramFiles=C:\Program Files\Common Files
+VSCODE_INJECTION=1
+SNC_LIB_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+Chassis=Notebook
+ProgramData=C:\ProgramData
+Serial=HV9KDL3
+GIT_ASKPASS=c:\Users\40054008\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh
+HOMEPATH=\Users\40054008
+EFC_7072_3789132940=1
+COMPUTERNAME=MYTSL02558
+PYTHONSTARTUP=c:\Users\40054008\AppData\Roaming\Code\User\workspaceStorage\5956121905fffa81fd5562c095b6e580\ms-python.python\pythonrc.py
+VSCODE_GIT_ASKPASS_NODE=C:\Users\40054008\AppData\Local\Programs\Microsoft VS Code\Code.exe
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+COPILOT_DEBUG_NONCE=46478ebb3ed374b8a5f64f00bf7ec4af
+OneDriveCommercial=C:\Users\40054008\OneDrive - LTTS
+PYTHON_BASIC_REPL=1
+SNC_LIB=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+TERM=xterm-256color
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+EFC_7072_1262719628=1
+windir=C:\WINDOWS
+GIT_TRACE2_PARENT_SID=afe359f8-ee6e-467e-b87a-c4c5cf534464
+SystemDrive=C:
+NUMBER_OF_PROCESSORS=8
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+VSCODE_STABLE=1
+SSF_LIBRARY_PATH_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+Model=3420
+HOME=C:\Users\40054008
+LANG=en_US.UTF-8
+PSModulePath=C:\Users\40054008\OneDrive - LTTS\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+TMPDIR=C:\Users\40054008\AppData\Local\Temp
+APPDATA=C:\Users\40054008\AppData\Roaming
+USERDOMAIN=LNTIES
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\40054008\AppData\Local
+Type=Latitude
+UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+BUNDLED_DEBUGPY_PATH=c:\Users\40054008\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy
+TERM_PROGRAM_VERSION=1.129.1
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\40054008\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\40054008\AppData\Local\Temp\dabe41caa76091c54315429f'... OK
+Reading from temporary file 'C:\Users\40054008\AppData\Local\Temp\dabe41caa76091c54315429f'... OK
+Deleting temporary file 'C:\Users\40054008\AppData\Local\Temp\dabe41caa76091c54315429f'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\40054008
+UserDataDirectoryPath: C:\Users\40054008\.gcm
+GetCurrentDirectory(): C:\Users\40054008\git_work\GitHubActionsDemo
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: False
+Exception:
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'example.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitCredentialManager.Diagnostics.NetworkingDiagnostic.<RunInternalAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitCredentialManager.Diagnostics.Diagnostic.<RunAsync>d__6.MoveNext()
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... warning: HEAD request failed
+Sending HEAD request to http://httpforever.com... OK
+Sending HEAD request to https://example.com...
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.55.0.windows.2'
+Locating current repository...Git repository at 'C:/Users/40054008/git_work/GitHubActionsDemo/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	core.fscache=true
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	core.symlinks=false
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	pull.rebase=false
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	credential.helper=manager
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Users/40054008/AppData/Local/Programs/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/40054008/.gitconfig	credential.helper=manager
+file:C:/Users/40054008/.gitconfig	credential.helper=
+file:C:/Users/40054008/.gitconfig	credential.helper=C:/Users/40054008/AppData/Local/Programs/Git/mingw64/bin/git-credential-manager.exe
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/SpoorthiR-2511/GitHubActionsDemo.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+file:.git/config	branch.main.vscode-merge-base=origin/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\40054008\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\40054008\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
