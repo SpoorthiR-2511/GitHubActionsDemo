@@ -1,6 +1,5 @@
 from copy import copy
-from datetime import datetime
-
+from datetime import datetime, timezone
 from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter
 
@@ -116,7 +115,9 @@ if __name__ == "__main__":
         r"\failuresClassifications_MGU22_03-08-2026-10-08-2026.xlsx"
     )
 
-    timestamp = datetime.now().strftime(
+    timestamp = datetime.now(
+        timezone.utc
+    ).strftime(
         "%Y%m%d_%H%M%S"
     )
 
