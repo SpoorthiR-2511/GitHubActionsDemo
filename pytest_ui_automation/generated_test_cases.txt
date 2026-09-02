@@ -1,0 +1,39 @@
+
+Requirement: User Login
+--------------------------------------------------
+TC_001 : valid_login
+TC_002 : invalid_username
+TC_003 : invalid_password
+TC_004 : empty_username
+TC_005 : empty_password
+TC_006 : empty_username_password
+
+Requirement: Search Function
+--------------------------------------------------
+TC_001 : valid_search
+TC_002 : invalid_search
+TC_003 : empty_search
+TC_004 : special_character_search
+TC_005 : partial_search
+
+Requirement: Logout Function
+--------------------------------------------------
+TC_001 : valid_logout
+TC_002 : logout_without_login
+TC_003 : multiple_logout
+
+Requirement: Forgot Password
+--------------------------------------------------
+TC_001 : registered_email
+TC_002 : unregistered_email
+TC_003 : invalid_email
+TC_004 : empty_email
+TC_005 : special_character_email
+
+Requirement: Add Item To Cart
+--------------------------------------------------
+TC_001 : add_single_product
+TC_002 : add_multiple_products
+TC_003 : duplicate_product
+TC_004 : add_after_search
+TC_005 : add_without_selection
